@@ -35,3 +35,46 @@ body.home {
 .home footer {
   display: none;
 }
+
+:root {
+  --paper: #0b1826;
+  --ink: #f4f8fc;
+  --muted: #c1cfdb;
+  --blue: #a6d8f5;
+  --line: #ffffff25;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.site-header,
+footer,
+.skip {
+  background: var(--paper);
+  border-color: var(--line);
+}
+
+.lead {
+  color: var(--ink);
+}
+
+nav a:hover,
+.home nav a:hover {
+  color: var(--blue);
+}
+
+/* Also overrides the button colors inside contact.html. */
+body .button,
+body .profile-links .button {
+  background: #172d43;
+  color: var(--ink);
+  border-color: #6c8ba3;
+}
+
+body .button:hover,
+body .profile-links .button:hover {
+  background: #24445f;
+  color: var(--ink);
+}
