@@ -2,3 +2,14 @@
 
 /* Portrait display; the original photograph remains unchanged. */
 .portrait{object-position:center 42%}
+
+@media (min-width: 801px) {
+  .hero-inner {
+    max-width: 1200px;
+    gap: 48px;
+  }
+
+  .intro {
+    max-width: 750px;
+  }
+}
