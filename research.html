@@ -23,46 +23,60 @@
 </header>
 <!-- EDIT THE PAGE TEXT BELOW. Keep the HTML tags around your text. -->
 <main id="main">
-<div class="page-wrap">
-<p class="eyebrow">Current work</p>
-<h1>Research</h1>
-<p class="lead measure">Using gravitational lensing to resolve the structure of distant galaxies.</p>
-<article>
-<h2>A lens model for SDSS J1110+6459</h2>
-<div class="measure">
-<p>Massive galaxy clusters bend the light from galaxies behind them, producing magnified and distorted images. By modeling the cluster’s mass distribution, we can map these images back to the original galaxy and estimate its intrinsic size and brightness.</p>
-<p>As part of the LEGGOS survey, I developed an updated strong lens model of SDSS J1110+6459, a galaxy cluster at redshift <i>z</i> = 0.659. It lenses the star-forming galaxy SGAS J1110, at <i>z</i> = 2.481, into three images that form a giant arc.</p>
-</div>
-<figure>
-<img src="assets/lensing-field.png" alt="JWST color image of SDSS J1110+6459 with the modeled critical curve, identified multiple images, and close-up views of the giant arc." width="2353" height="1148">
-<figcaption>JWST imaging of SDSS J1110+6459. The colored annotations identify multiple images and matching star-forming regions used to constrain the lens model. Figure from Abedi et al.</figcaption>
-</figure>
-<div class="measure">
-<h2>What I did</h2>
-<p>I combined JWST NIRCam imaging, NIRSpec spectroscopy, and archival Hubble observations to identify four multiply imaged background sources and match more than 20 luminous regions across the primary arc. These resolved structures provide a dense set of constraints on the cluster’s lensing potential.</p>
-<h2>Key results</h2>
-<ul class="results">
-<li>The model reproduces observed image positions with an image-plane RMS of approximately <strong>0.11 arcseconds</strong>.</li>
-<li>The giant arc has a total effective areal magnification of <strong>24.2<sup>+3.4</sup>
-<sub>−1.2</sub>
-</strong>, allowing us to infer the source’s intrinsic area.</li>
-<li>Magnification precision improves by approximately <strong>2.6–8.3 times</strong> over previous models, with an estimated systematic uncertainty of about <strong>10%</strong>.</li>
-<li>The three independently reconstructed images recover consistent source morphology, including bright star-forming regions.</li>
-</ul>
-</div>
-<figure>
-<img src="assets/source-reconstructions.png" alt="Three source-plane reconstructions of SGAS J1110, obtained from its three lensed images." width="2938" height="972" loading="lazy">
-<figcaption>Three source-plane reconstructions of the same galaxy, obtained by tracing each lensed image through the best-fit model. Figure from Abedi et al.</figcaption>
-</figure>
-<div class="measure">
-<h2>Why it matters</h2>
-<p>A well-constrained lens model is the foundation for measuring the sizes, luminosities, and spatial distribution of star-forming structures in this galaxy. This work supplies the magnification maps and source-plane projections needed for further LEGGOS studies of galaxy growth and feedback.</p>
-<p>
-<a href="publications.html">Read the manuscript abstract</a>
-</p>
-</div>
-</article>
-</div>
+  <div class="page-wrap">
+    <h1>Research</h1>
+
+    <p class="lead measure">My current research involves constructing strong lens mass models of galaxy clusters as part of the JWST LEGGOS and SLICE collaborations. These models allow us to investigate both the lensing clusters themselves and the background sources they magnify.</p>
+    <div class="measure">
+      <p>Strong lens models constrain the total mass distribution of galaxy clusters, including their dark matter, helping us understand the largest gravitationally bound structures in the universe. By comparing these mass distributions with the visible matter, we can investigate how clusters assemble and evolve and test predictions for the distribution of dark matter. The same models allow us to reconstruct distant galaxies magnified by the clusters, enabling detailed studies of star formation and galaxy evolution during cosmic noon, when the universe's star formation activity was at its peak.</p>
+    </div>
+
+    <section aria-labelledby="current-work">
+      <div class="measure">
+        <h2 id="current-work">Current Work</h2>
+
+        <h3>JWST LEGGOS</h3>
+        <p>The LEGGOS survey (LEnsing and Galaxy Growth: Observing Substructures) uses gravitational lensing and JWST observations to study star formation in the luminous clumps of highly magnified galaxies at cosmic noon.</p>
+        <p>I contribute to the construction of strong lens mass models using JWST imaging and spectroscopy alongside archival Hubble Space Telescope imaging. These well-constrained models provide the magnification estimates and source-plane reconstructions needed to measure the intrinsic sizes, luminosities, and spatial distribution of star-forming regions in the lensed galaxies.</p>
+
+        <h3>JWST SLICE</h3>
+        <p>The SLICE collaboration (Strong LensIng and Cluster Evolution) aims to trace the co-evolution of the luminous, baryonic matter and dark matter in massive galaxy clusters across approximately eight billion years of cosmic time, spanning redshifts from <i>z</i> ≈ 0.2 to <i>z</i> = 1.9.</p>
+        <p>I help construct strong lens mass models using JWST and archival Hubble imaging, together with MUSE spectroscopy to measure the redshifts of cluster members and lensed arcs. These observations constrain the clusters' mass distributions and contribute to the collaboration's broader effort to understand how their dark and luminous components evolve.</p>
+
+        <h3>Wide-Separation Lensed Quasars</h3>
+        <p>I also contribute to a separate project constructing strong lens mass models of systems with wide-separation lensed quasars. Because quasars vary in brightness, the same variation appears at different times in their multiple images as the light travels along different paths through the lensing cluster.</p>
+        <p>Combining these measured time delays with predictions from well-constrained lens models allows us to constrain the Hubble constant, <i>H</i><sub>0</sub>, which describes the present-day expansion rate of the universe. My work helps characterize the lensing mass distribution and improve the model predictions needed for these measurements.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="notable-results">
+      <div class="measure">
+        <h2 id="notable-results">Notable Results</h2>
+        <h3>A Strong Lens Model of SDSS J1110+6459</h3>
+        <p>As part of LEGGOS, I developed an updated strong lens model of SDSS J1110+6459, a galaxy cluster at <i>z</i> = 0.659 that lenses the star-forming galaxy SGAS J1110 at <i>z</i> = 2.481 into three images forming a giant arc.</p>
+        <p>Using JWST NIRCam imaging, NIRSpec spectroscopy, and archival Hubble observations, we identified four multiply imaged background sources and matched more than 20 luminous regions across the primary arc. Spectroscopy also confirmed that previously ambiguous structures along the edge of the arc belong to the same background galaxy.</p>
+      </div>
+
+      <figure>
+        <img src="assets/lensing-field.png" alt="JWST image of SDSS J1110+6459 showing the modeled critical curve, multiply imaged galaxies, and matching luminous regions along the giant arc." width="2353" height="1148" loading="lazy">
+        <figcaption>JWST imaging of SDSS J1110+6459. Colored annotations identify the multiple images and matching luminous regions used to constrain the lens model. Figure from Abedi et al.</figcaption>
+      </figure>
+
+      <div class="measure">
+        <p>The resulting model reproduces the observed image positions with an image-plane RMS of <strong>0.11 arcseconds</strong> and gives a total effective areal magnification of approximately <strong>24.2</strong> for the giant arc. The dense set of resolved clump constraints improves magnification precision by approximately <strong>2.6–8.3 times</strong> over previous models. We also estimate a systematic uncertainty of approximately <strong>10%</strong>.</p>
+        <p>Tracing the three lensed images back through the model produces consistent source-plane reconstructions of the background galaxy. This lensing solution provides the foundation for subsequent studies of its star-forming structures, allowing observed sizes and brightnesses to be translated into intrinsic physical properties.</p>
+      </div>
+
+      <figure>
+        <img src="assets/source-reconstructions.png" alt="Three source-plane reconstructions of SGAS J1110, derived independently from its three lensed images." width="2938" height="972" loading="lazy">
+        <figcaption>Source-plane reconstructions of SGAS J1110 from its three lensed images. The consistent morphology provides a check on the lens model. Figure from Abedi et al.</figcaption>
+      </figure>
+
+      <div class="measure">
+        <p><a href="publications.html">Read the manuscript abstract</a></p>
+      </div>
+    </section>
+  </div>
 </main>
 <footer>
 <div class="footer-inner">
