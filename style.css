@@ -103,3 +103,17 @@ select {
 .personal-photo figcaption {
   text-align: center;
 }
+
+.measurement {
+  white-space: nowrap;
+}
+
+.asymmetric-error {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
+  margin-left: 0.15em;
+  font-size: 0.65em;
+  line-height: 1.1;
+  text-align: left;
+}
