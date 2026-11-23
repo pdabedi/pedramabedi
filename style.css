@@ -78,3 +78,14 @@ body .profile-links .button:hover {
   background: #24445f;
   color: var(--ink);
 }
+
+body,
+h1, h2, h3, h4, h5, h6,
+.name,
+.button,
+button,
+input,
+textarea,
+select {
+  font-family: "Times New Roman", Times, serif;
+}
