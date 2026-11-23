@@ -117,3 +117,22 @@ select {
   line-height: 1.1;
   text-align: left;
 }
+
+.publication .publication-title {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin: 0.4rem 0 0.75rem;
+}
+
+.publication details {
+  margin-top: 0.8rem;
+}
+
+.publication summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.publication details[open] summary {
+  margin-bottom: 0.8rem;
+}
